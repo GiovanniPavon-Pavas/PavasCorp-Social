@@ -18,7 +18,6 @@ if ($resultado->num_rows > 0) {
         echo '<p class="contenido-publicacion">' . $fila["contenido"] . '</p>';
         echo '<p class="likes">Likes: ' . $fila["likes"] . '</p>';
         echo '<p class="dislikes">Dislikes: ' . $fila["dislikes"] . '</p>';
-        // Puedes agregar más elementos HTML y estilos CSS aquí para mejorar el diseño
         echo '</div>';
     }
 } else {
